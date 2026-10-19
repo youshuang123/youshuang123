@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="430" viewBox="0 0 1200 430" role="img" aria-labelledby="title desc">
+  <title id="title">LEADING — YS</title>
+  <desc id="desc">游双的极简灰白动态个人主页封面</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fbfbfa"/>
+      <stop offset="1" stop-color="#f1f1ee"/>
+    </linearGradient>
+    <linearGradient id="shine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#1f2328" stop-opacity="0"/>
+      <stop offset=".5" stop-color="#1f2328" stop-opacity=".12"/>
+      <stop offset="1" stop-color="#1f2328" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="grid" width="42" height="42" patternUnits="userSpaceOnUse">
+      <path d="M42 0H0V42" fill="none" stroke="#d7d7d2" stroke-width="1" opacity=".32"/>
+    </pattern>
+    <clipPath id="word-mask">
+      <rect class="mask" x="0" y="0" width="1200" height="430"/>
+    </clipPath>
+  </defs>
+  <style>
+    .sans { font-family: Inter, "Helvetica Neue", Arial, "PingFang SC", sans-serif; }
+    .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; }
+    .mask { animation: mask 5.8s cubic-bezier(.7,0,.2,1) infinite; transform-origin: left; }
+    .lead { animation: rise 5.8s cubic-bezier(.2,.8,.2,1) infinite; }
+    .ys { animation: fade 5.8s ease-in-out infinite; }
+    .rule { animation: rule 5.8s cubic-bezier(.7,0,.2,1) infinite; transform-origin: left; }
+    .cursor { animation: blink .9s steps(1) infinite; }
+    .orb { animation: drift 5.8s ease-in-out infinite; transform-origin: center; }
+    .sweep { animation: sweep 5.8s ease-in-out infinite; }
+    @keyframes mask {
+      0%, 7% { transform: scaleX(0); }
+      27%, 82% { transform: scaleX(1); }
+      94%, 100% { transform: scaleX(0); }
+    }
+    @keyframes rise {
+      0%, 7% { opacity: 0; transform: translateY(22px); }
+      27%, 82% { opacity: 1; transform: translateY(0); }
+      94%, 100% { opacity: 0; transform: translateY(-8px); }
+    }
+    @keyframes fade {
+      0%, 22% { opacity: 0; }
+      35%, 82% { opacity: 1; }
+      94%, 100% { opacity: 0; }
+    }
+    @keyframes rule {
+      0%, 12% { transform: scaleX(0); }
+      34%, 82% { transform: scaleX(1); }
+      94%, 100% { transform: scaleX(0); }
+    }
+    @keyframes blink { 0%, 48% { opacity: 1; } 49%, 100% { opacity: .08; } }
+    @keyframes drift {
+      0%, 100% { transform: translate(0,0); }
+      50% { transform: translate(-12px,8px); }
+    }
+    @keyframes sweep {
+      0%, 18% { transform: translateX(-500px); opacity: 0; }
+      35% { opacity: 1; }
+      63%, 100% { transform: translateX(1450px); opacity: 0; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .mask, .lead, .ys, .rule, .cursor, .orb, .sweep { animation: none; opacity: 1; transform: none; }
+    }
+  </style>
+
+  <rect x="1" y="1" width="1198" height="428" rx="26" fill="url(#bg)" stroke="#d6d6d1" stroke-width="2"/>
+  <rect x="1" y="1" width="1198" height="428" rx="26" fill="url(#grid)"/>
+  <circle class="orb" cx="1095" cy="72" r="126" fill="none" stroke="#c8c8c2" stroke-width="1" opacity=".55"/>
+  <circle class="orb" cx="1095" cy="72" r="88" fill="none" stroke="#d5d5d0" stroke-width="1" opacity=".7"/>
+  <path d="M1005 430L1200 235V430Z" fill="#e7e7e3" opacity=".72"/>
+
+  <text class="mono" x="68" y="62" fill="#777b80" font-size="14" letter-spacing="3">PROFILE / 2026</text>
+  <text class="mono" x="1132" y="62" fill="#777b80" font-size="14" text-anchor="end">01</text>
+
+  <g clip-path="url(#word-mask)">
+    <text class="sans lead" x="66" y="245" fill="#22262a" font-size="128" font-weight="300" letter-spacing="-7">LEADING</text>
+  </g>
+  <text class="sans ys" x="743" y="245" fill="#22262a" font-size="128" font-weight="700" letter-spacing="-8">— YS</text>
+  <rect class="cursor" x="1085" y="142" width="8" height="105" rx="2" fill="#64686c"/>
+
+  <rect class="rule" x="68" y="286" width="1020" height="2" fill="#b7b8b5"/>
+  <text class="sans ys" x="68" y="338" fill="#5d6267" font-size="18" letter-spacing="5">AI PRODUCT  ·  WEB  ·  INDEPENDENT CREATION</text>
+  <text class="mono ys" x="68" y="382" fill="#8b8f92" font-size="14" letter-spacing="1.4">Youshuang / Build with clarity.</text>
+  <path class="ys" d="M1082 364h48m0 0-13-13m13 13-13 13" fill="none" stroke="#555a5e" stroke-width="2"/>
+
+  <rect class="sweep" x="-260" y="1" width="260" height="428" fill="url(#shine)" transform="skewX(-16)"/>
+</svg>
