@@ -4,6 +4,14 @@
   </a>
 </p>
 
+<p>
+我从嵌入式软件工程走向人工智能产品管理。<br>
+现在，我负责把人工智能能力做成真正可用的产品。<br>
+我也开发工具和可复用的技能，让复杂的技术信息更容易理解。<br>
+工程经验让我习惯从系统、边界和实现成本出发思考问题。<br>
+这套视角帮助我做出更清晰、更务实的产品选择。
+</p>
+
 <p align="center">
   <a href="https://youshuang123.github.io/personal-website/">PORTFOLIO</a>
   &nbsp;&nbsp;·&nbsp;&nbsp;
