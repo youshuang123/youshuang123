@@ -55,4 +55,9 @@
 
 ### Notes on AI products and making.
 
-<sub>Writing archive coming soon.</sub>
+我从工程和产品视角记录 AI 产品与实践。
+
+- [DeepSeek 这次更新，让 AI 能自己找资料再把事做完](https://mp.weixin.qq.com/s/q7kGf0wBPlt5DWH9f4cPwQ)
+- [Agent 的下一站，是更聪明，还是更可控？](https://mp.weixin.qq.com/s/FtYUeQFv7HGwq-DPJBwWVQ)
+- [AI 会忘事吗？](https://mp.weixin.qq.com/s/J5VDeHsPcbCse2mPRHufpw)
+- [Agent 到底是什么，一次把它讲清楚](https://mp.weixin.qq.com/s/1M5WhswryDkVY_dz09lSmw)
