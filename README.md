@@ -12,10 +12,10 @@
 这套视角帮助我做出更清晰、更务实的产品选择。
 </p>
 
-<p align="center">
-  <a href="https://youshuang123.github.io/personal-website/">PORTFOLIO</a>
-  &nbsp;&nbsp;·&nbsp;&nbsp;
-  <a href="mailto:2670121107@qq.com">EMAIL</a>
+<p>
+  🌐 <a href="https://youshuang123.github.io/personal-website/">Website</a>
+  &nbsp;·&nbsp;
+  ✉️ <a href="mailto:2670121107@qq.com">Email</a>
 </p>
 
 <br>
@@ -24,21 +24,28 @@
 
 <table>
   <tr>
-    <td width="33%" valign="top">
+    <td width="25%" valign="top">
       <b>LEADING AI PM</b><br>
-      <sub>AI 产品经理桌面工作台</sub><br><br>
-      <a href="https://github.com/youshuang123/LEADING-AI-PM">VIEW →</a>
+      <sub>AI 产品经理桌面工作台</sub>
     </td>
-    <td width="33%" valign="top">
+    <td width="25%" valign="top">
       <b>ARC FURNITURE</b><br>
-      <sub>动态家具展示与互动体验</sub><br><br>
-      <a href="https://github.com/youshuang123/arc-furniture-studio">VIEW →</a>
+      <sub>动态家具展示与互动体验</sub>
     </td>
-    <td width="33%" valign="top">
+    <td width="25%" valign="top">
       <b>PERSONAL WEBSITE</b><br>
-      <sub>个人作品与联系入口</sub><br><br>
-      <a href="https://youshuang123.github.io/personal-website/">OPEN →</a>
+      <sub>个人作品与联系入口</sub>
     </td>
+    <td width="25%" valign="top">
+      <b>＋</b><br>
+      <sub>添加或管理项目</sub>
+    </td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/youshuang123/LEADING-AI-PM">VIEW →</a></td>
+    <td><a href="https://github.com/youshuang123/arc-furniture-studio">VIEW →</a></td>
+    <td><a href="https://youshuang123.github.io/personal-website/">OPEN →</a></td>
+    <td><a href="https://github.com/youshuang123/youshuang123/edit/main/README.md">ADD PROJECT →</a></td>
   </tr>
 </table>
 
